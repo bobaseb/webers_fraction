@@ -54,8 +54,7 @@ def run_wrapper(w0,params):
     return webers_w, rmse
 
 #load data
-#pwd = '/home/seb/Dropbox/merari/'
-pwd = '/media/seb/HD_Numba_Juan/Dropbox/merari/'
+pwd = '/xxxyyyzzz' #your directory here
 #fn = pwd + 'testds.csv' #'Weber.csv'
 task = 'symbolic_' #'dots_' #
 fn = pwd + task + '100519.csv'
