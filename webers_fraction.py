@@ -55,11 +55,10 @@ def run_wrapper(w0,params):
 
 #load data
 pwd = '/xxxyyyzzz' #your directory here
-#fn = pwd + 'testds.csv' #'Weber.csv'
-task = 'symbolic_' #'dots_' #
-fn = pwd + task + '100519.csv'
+task = 'dots_' # 'symbolic_' # dots or symbolic task?
+fn = pwd + task + '100519.csv' #filename of task
 ds = pd.read_csv(fn)
-idx = 'ID_spss'
+idx = 'ID_subs' #subject ID column name
 
 #initialize a starting w
 w0=0.11
